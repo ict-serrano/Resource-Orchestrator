@@ -1,0 +1,22 @@
+{
+  "log_level": "INFO",
+  "orchestrator":{
+    "service": "",
+    "username": "",
+    "password": ""
+  },
+  "etcd": {
+     "endpoints": [],
+     "port": 2379
+  },
+  "databroker_interface": {
+       "address": "",
+       "username": "",
+       "password": "",
+       "virtual_host": ""
+  },
+  "secure_storage": {
+    "service": "",
+    "token": ""
+  }
+}

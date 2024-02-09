@@ -1,0 +1,34 @@
+{
+   "log_level": "INFO",
+   "rest_interface": {
+        "address": "",
+        "port": 10100,
+        "username": "",
+        "password": "",
+        "service_endpoint": ""
+    },
+    "central_telemetry_handler":{
+       "cth_service": "",
+       "username": "",
+       "password": ""
+    },
+    "secure_storage": {
+       "service": "",
+       "token": ""
+    },
+    "etcd": {
+     "endpoints": [""],
+     "port": 2379
+   },
+  "ede": {
+    "service": "",
+    "username": "",
+    "password": "",
+    "shape_value_threshold": 0
+  },
+  "stream_handler": {
+    "server":  "",
+    "group_id": "",
+    "ede_topic": ""
+  }
+}

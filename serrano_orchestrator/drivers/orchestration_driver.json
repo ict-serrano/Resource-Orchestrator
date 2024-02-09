@@ -1,0 +1,35 @@
+{
+  "log_level": "INFO",
+  "cluster_uuid": "",
+  "heartbeat": 60,
+  "driver": "driverKubernetes",
+  "orchestrator": {
+      "orchestrator_service": "",
+      "username": "",
+      "password": ""
+  },
+  "driver_k8s_conf": {
+    "api_address": "",
+    "api_port": 6443,
+    "token": "",
+    "databroker_address": "",
+    "databroker_username": "",
+    "databroker_password": "",
+    "databroker_virtual_host": ""
+  },
+  "driver_hpc_conf":{
+     "gateway_service": "",
+     "s3_endpoint": "",
+     "s3_access_key": "",
+     "s3_secret_key": "",
+     "infrastructure": "",
+     "databroker_address": "",
+     "databroker_username": "",
+     "databroker_password": "",
+     "databroker_virtual_host": ""
+  },
+  "etcd": {
+     "address": "",
+     "port": 2379
+  }
+}

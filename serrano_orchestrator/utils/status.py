@@ -1,0 +1,65 @@
+from enum import IntEnum
+
+
+class StoragePolicy(IntEnum):
+    UNKNOWN = 0
+    SUBMITTED = 1
+    PENDING = 2
+    SCHEDULED = 3
+    IN_DEPLOYMENT = 4
+    CREATED = 5
+    FAILED = 6
+    UPDATED = 7
+    TERMINATED = 8
+
+
+class Deployment(IntEnum):
+    UNKNOWN = 0
+    SUBMITTED = 1
+    PENDING = 2
+    SCHEDULED = 3
+    ASSIGNED = 4
+    IN_DEPLOYMENT = 5
+    DEPLOYED = 6
+    FAILED = 7
+    REDEPLOYED = 8
+    TERMINATED = 9
+
+
+class Kernels(IntEnum):
+    UNKNOWN = 0
+    SUBMITTED = 1
+    PENDING = 2
+    SCHEDULED = 3
+    ASSIGNED = 4
+    IN_DEPLOYMENT = 5
+    DEPLOYED = 6
+    FAILED = 7
+    FINISHED = 8
+
+
+class Assignment(IntEnum):
+    UNKNOWN = 0
+    CREATED = 1
+    SCHEDULED = 2
+    DEPLOYED = 3
+    FAILED = 4
+    TERMINATED = 5
+
+
+class Bundle(IntEnum):
+    UNKNOWN = 0
+    CREATED = 1
+    SUCCESSFUL = 2
+    FAILED = 3
+    TERMINATED = 4
+    HPC_DATA_TO_GATEWAY_REQUESTED = 5
+    HPC_DATA_TO_GATEWAY_COMPLETED = 6
+    HPC_DATA_TO_GATEWAY_FAILED = 7
+    HPC_EXECUTION_REQUESTING = 8
+    HPC_EXECUTION_SUBMITTED = 9
+    HPC_EXECUTION_COMPLETED = 10
+    HPC_EXECUTION_FAILED = 11
+
+    HPC_RESULTS_TRANSFER_COMPLETED = 12
+    HPC_RESULTS_TRANSFER_FAILED = 13
